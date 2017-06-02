@@ -44,5 +44,6 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     });
     // From review: Create a sing function with all of the above code. Then call the function inside of the button's click event listener.
-    // Example: btn.addEventListener('click', sing());
+    // Example: btn.addEventListener('click', sing);
+    // Don't need to type sing() when passing the name of the function into the event listener.
 });
